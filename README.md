@@ -2,12 +2,16 @@
 
 This repository contains the implementation and comparison of different computer vision approaches to detect apples in an orchard. The primary goal of this project is to calculate and predetermine the yield of apple crops using machine vision algorithms, which helps estimate the seasonal turnover in the agricultural industry.
 
-The project investigates four different computer vision approaches for apple detection:
+The project originally investicated four different computer vision approaches for apple detection:
 
 1. Two conventional methods involving direct image manipulation
-2. Two machine learning methods using convolutional neural networks (CNNs)
+2. Two machine learning methods using deep learning algorithms, YOLO and Mask R-CNN
 
-The dataset used for both methods consists of images with red apples on trees. The results demonstrate a significant difference in accuracy between conventional and machine learning-based methods, with the YOLO object detection model proving to be the most accurate.
+The project has since been extended to include other computer vision algorithms such as U-Net.
+
+## Dataset
+
+The dataset used for both methods consists of images with apples on trees. The results demonstrate a significant difference in accuracy between conventional and machine learning-based methods, with the YOLO object detection model proving to be the most accurate.
 
 ## Repository Structure
 
@@ -18,7 +22,9 @@ The dataset used for both methods consists of images with red apples on trees. T
 ├── Conventional_ split method.ipynb
 ├── Implementation and Comparison of Machine Vision Algorithms for Detecting Apples at an Orchard.pdf
 ├── README.md
+├── U-Net
 └── YOLOv5_AppleDetector.ipynb
+
 ```
 
 ## Files Description
@@ -36,4 +42,6 @@ To get started with the project, clone the repository and install the required d
 
 ## Results
 
-The YOLO object detection model outperformed the conventional methods, with an overestimation of apples in the dataset by only 2.6%. In comparison, the best conventional approach counted 65.1% of the number of apples.
+The results demonstrate a significant difference in accuracy between conventional and machine learning-based methods, with the YOLO object detection model proving to be the most accurate. The YOLO object detection model outperformed the conventional methods, with an overestimation of apples in the dataset by only 2.6%. In comparison, the best conventional approach counted 65.1% of the number of apples.
+
+

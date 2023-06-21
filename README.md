@@ -34,11 +34,14 @@ The dataset used for both methods consists of images with apples on trees. The r
 - `Conventional_ split method.ipynb`: A Jupyter notebook containing the implementation of a split method for apple detection using conventional techniques.
 - `Implementation and Comparison of Machine Vision Algorithms for Detecting Apples at an Orchard.pdf`: The complete report detailing the methods, implementation, and results of the project.
 - `README.md`: This README file.
+- `Un-Net`: Further exploration into how U-Net, an algorithm originally developed for semantic segmentation in medical imaging, can be adapted for the detection and segmentation of apples. 
 - `YOLOv5_AppleDetector.ipynb`: A Jupyter notebook containing the implementation of the YOLOv5 object detection model for apple detection.
 
 ## Getting Started
 
 To get started with the project, clone the repository and install the required dependencies for each Jupyter notebook. Then, you can run the notebooks and explore the different computer vision methods for apple detection.
+
+![AppleComparison](https://github.com/trow-land/images/blob/main/Apple_Comparison.png)
 
 ## Results
 

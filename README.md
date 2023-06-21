@@ -11,7 +11,7 @@ The project has since been extended to include other computer vision algorithms 
 
 ## Dataset
 
-The dataset used for both methods consists of images with apples on trees. The results demonstrate a significant difference in accuracy between conventional and machine learning-based methods, with the YOLO object detection model proving to be the most accurate.
+The dataset used for both methods consists of images with apples on trees. The dataset can be downloaded at [website](https://rsn.umn.edu/projects/orchard-monitoring/minneapple) and more information can be found at [GitHub}(https://github.com/nicolaihaeni/MinneApple) and [Paper](https://arxiv.org/abs/1909.06441)
 
 ## Repository Structure
 

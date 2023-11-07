@@ -1,5 +1,7 @@
 # Apple Detection Using Computer Vision
 
+## For other ML/CV projects see [Machine Learning Projects](https://github.com/trow-land/Machine-Learning) and [Computer Vision Projects](https://github.com/trow-land/Computer-Vision-Projects)
+
 This repository contains the implementation and comparison of different computer vision approaches to detect apples in an orchard. The primary goal of this project is to calculate and predetermine the yield of apple crops using machine vision algorithms, which helps estimate the seasonal turnover in the agricultural industry.
 
 The project originally investicated four different computer vision approaches for apple detection:
